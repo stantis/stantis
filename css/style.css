@@ -120,8 +120,8 @@ ol {
 	margin-left: -13px;
 	border-radius: 60px;
 	border-left-color: transparent;
-	animation: loader 0.8s linear infinite;
-	-webkit-animation: loader 0.8s linear infinite;
+	animation: loader 0.5s linear infinite;
+	-webkit-animation: loader 0.5s linear infinite;
 }
 
 @keyframes loader {
@@ -165,7 +165,7 @@ ol {
 	margin-right: 10px;
 	border: 2px solid #40424a;
 	color: #40424a;
-	font-weight: 700;
+	font-weight: 100;
 }
 
 .site-btn:hover {
