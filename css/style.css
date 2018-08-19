@@ -379,6 +379,12 @@ img {
 	z-index: 5;
 }
 
+.social-section .social-link-warp h1{
+	font-size: 18px;
+	font-weight: 600;
+	padding-right: 30px;
+}
+
 .social-section .social-link-warp:after {
 	position: absolute;
 	content: '';
