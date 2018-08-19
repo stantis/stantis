@@ -348,22 +348,24 @@ img {
 	Social section
 -----------------------*/
 .social-section {
-	background: #b10505;
+	background: #9dbefc;
 	padding: 20px 20px 20px 20px;
 	position: center;
 }
 
 .social-section .social-links {
 	display: inline-block;
-	background: #f9f9f9;
-	position: center;
+	background: #9dbefc;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 	z-index: 5;
 }
 
 .social-section .social-links a {
 	color: #484848;
 	font-size: 16px;
-	margin-right: 40px;
 	position: center;
 }
 
