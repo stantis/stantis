@@ -356,10 +356,8 @@ img {
 .social-section .social-links {
 	display: inline-block;
 	background: #9dbefc;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+	position: center;
+	text-align: center;
 	z-index: 5;
 }
 
