@@ -11,7 +11,7 @@
 html,
 body {
 	height: 100%;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 }
 
 img {
@@ -320,7 +320,7 @@ img {
 }
 
 /*---------------------
-	Social section
+	Header Bar
 -----------------------*/
 .social-section {
 	background: #28303d;
@@ -328,31 +328,44 @@ img {
 	position: center;
 }
 
+/*---------------------
+	Social Media
+-----------------------*/
+.social-links h2{
+	font-size: 18px;
+	font-weight: 700;
+	text-align: left;
+	margin-left: 12px;
+	color: #fff;
+}
 .social-section .social-links {
 	display: block;
 	text-align: left;
-	margin-top: 18px;
+	margin-left: 16px;
 	background: #28303d;
 	position: center;
 	z-index: 200;
 }
 .social-section .social-links a {
-	color: #ffa114;
+	color: #2dbcff;
 	font-size: 24px;
 	position: center;
-	margin-right: 24px;
-	margin-left: 24px;
+	margin-right: 12px;
+	margin-left: 12px;
 }
 
 .social-section .social-link-warp {
 	position: center;
 }
 
+/*---------------------
+	Contact Info
+-----------------------*/
+
 .social-section .contact-info {
 	display: block;
 	text-align: left;
 }
-
 .social-section .contact-info h2{
 	font-size: 18px;
 	font-weight: 700;
@@ -379,25 +392,23 @@ img {
 	Hero section
 -----------------------*/
 .hero-section {
-	padding-top: 30px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background: #f7fbff;
 }
 
 .hero-image {
-	height: 75%;
-	width: 75%;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	padding-left: 70px;
+	width: 50%;
+	height: 50%;
+	margin-top: 10px;
+	margin-left: 100px;
 }
 
 .hero-text h1 {
 	font-size: 30px;
 	color: #333333;
 	line-height: normal;
-	padding-bottom: 10px;
-	margin-bottom: 1px;
+	padding-top: 22px;
 }
 
 .hero-text p {
@@ -407,33 +418,6 @@ img {
 
 .hero-text {
 	margin-bottom: 20px;
-}
-
-.hero-info h2 {
-	font-size: 25px;
-	padding-bottom: 5px;
-	padding-top: 40px;
-}
-
-.hero-info ul {
-	list-style: none;
-}
-
-.hero-info ul li {
-	font-size: 14px;
-	color: #808181;
-	margin-bottom: 2px;
-	margin-left: -40px;
-}
-
-.hero-info ul li span {
-	color: #40424a;
-	display: inline-block;
-	min-width: 60px;
-}
-
-.hero-info ul li:last-child {
-	margin-bottom: 0;
 }
 
 /*---------------------
