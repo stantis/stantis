@@ -38,7 +38,7 @@ h2 {
 .section-title h2:after {
 	position: absolute;
 	content: '';
-	width: 100%;
+	width: 25%;
 	height: 2px;
 	left: 0;
 	bottom: 0;
