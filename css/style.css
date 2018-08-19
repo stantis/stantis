@@ -357,7 +357,6 @@ img {
 	display: inline-block;
 	background: #9dbefc;
 	position: center;
-	text-align: center;
 	z-index: 5;
 }
 
@@ -365,6 +364,9 @@ img {
 	color: #484848;
 	font-size: 16px;
 	position: center;
+	margin-right: 32px;
+	margin-left: 32px;
+	text-align: center;
 }
 
 .social-section .social-link-warp {
