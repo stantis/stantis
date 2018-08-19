@@ -14,30 +14,30 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-a:hover,
-a:focus {
-	text-decoration: none;
-	outline: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #40424a;
+	margin: 0;
+	font-weight: 600;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 h2 {
-	color: #40424a;
-	margin: 0;
-	font-weight: 24;
-	font-family: 'Josefin Sans', sans-serif;
+	font-size: 48px;
+}
+
+h3 {
+	font-size: 30px;
 }
 
 p {
-	font-size: 24px;
+	font-size: 18px;
 	color: #808181;
 	line-height: 1.8;
-}
-
-h2{
-	color: #40424a;
-	margin: 0;
-	font-weight: 24;
-	font-family: 'Josefin Sans', sans-serif;
 }
 
 img {
@@ -120,8 +120,8 @@ ol {
 	margin-left: -13px;
 	border-radius: 60px;
 	border-left-color: transparent;
-	animation: loader 0.5s linear infinite;
-	-webkit-animation: loader 0.5s linear infinite;
+	animation: loader 0.8s linear infinite;
+	-webkit-animation: loader 0.8s linear infinite;
 }
 
 @keyframes loader {
@@ -165,7 +165,7 @@ ol {
 	margin-right: 10px;
 	border: 2px solid #40424a;
 	color: #40424a;
-	font-weight: 100;
+	font-weight: 700;
 }
 
 .site-btn:hover {
@@ -367,11 +367,11 @@ ol {
 -----------------------*/
 .header-section {
 	padding: 50px 40px;
-	background: #0c8aa3;
+	background: #f2f7f8;
 }
 
 .site-logo h2 {
-	font-size: 24px;
+	font-size: 36px;
 }
 
 .site-logo h2 a {
@@ -379,7 +379,7 @@ ol {
 }
 
 .site-logo p {
-	font-size: 12px;
+	font-size: 14px;
 	line-height: normal;
 }
 
@@ -399,13 +399,13 @@ ol {
 }
 
 .hero-text h2 {
-	font-size: 24px;
+	font-size: 170px;
 	line-height: normal;
 	margin-bottom: 20px;
 }
 
 .hero-text p {
-	font-size: 18px;
+	font-size: 33px;
 	line-height: 1.3;
 }
 
