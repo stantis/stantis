@@ -355,7 +355,7 @@ img {
 .social-section .social-links {
 	display: inline-block;
 	background: #f9f9f9;
-	position: relative;
+	position: center;
 	z-index: 5;
 }
 
