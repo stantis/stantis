@@ -361,7 +361,6 @@ img {
 /*---------------------
 	Contact Info
 -----------------------*/
-
 .social-section .contact-info {
 	display: block;
 	text-align: left;
@@ -393,15 +392,14 @@ img {
 -----------------------*/
 .hero-section {
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 	background: #f7fbff;
 }
 
 .hero-image {
 	width: 50%;
 	height: 50%;
-	margin-top: 10px;
-	margin-left: 100px;
+	position: relative;
 }
 
 .hero-text h1 {
@@ -412,6 +410,7 @@ img {
 }
 
 .hero-text p {
+	color: #444444;
 	font-size: 14px;
 	line-height: 2.0;
 }
@@ -421,31 +420,33 @@ img {
 }
 
 /*---------------------
-	Resume section
+	Education section
 ----------------------*/
-.resume-section.with-bg {
+.education-section.with-bg {
 	background-image: url(../img/resume-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
-.resume-list {
+.education-list {
 	list-style: none;
 	margin-left: 60px;
 	padding-left: 110px;
 	border-left: 2px solid #40424a;
 }
 
-.resume-list li {
+.education-list li {
 	margin-bottom: 120px;
 	position: relative;
 }
 
-.resume-list li:last-child {
+.education-list li:last-child {
 	margin-bottom: 0;
 }
 
-.resume-list li:after {
+.education-list li:after {
 	position: absolute;
 	content: '';
 	width: 15px;
@@ -457,21 +458,34 @@ img {
 	left: -118px;
 }
 
-.resume-list h2 {
-	color: #3a4db4;
+.education-title h2{
+	font-size: 24px;
+	display: block;
+	color: #ffffff;
+}
+
+.education-list h2 {
+	color: #ffffff;
+	display: block;
 	font-size: 14px;
 	margin-bottom: 5px;
 }
 
-.resume-list h4 {
+.education-list h3{
+	color: rgb(255, 255, 255);
+}
+
+.education-list h4 {
 	font-size: 16px;
 	text-transform: uppercase;
-	color: #808181;
+	color: #ffffff;
 	margin-top: 10px;
 	margin-bottom: 30px;
 }
 
-.resume-list p {
+.education-list p {
+	display: block;
+	color: #ffffff;
 	margin-bottom: 0;
 }
 
