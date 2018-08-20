@@ -323,74 +323,53 @@ img {
 	Header Bar
 -----------------------*/
 .social-section {
-	background: #28303d;
+	background: #242c38;
 	padding: 10px 0 10px 0;
-	position: center;
 }
 
 /*---------------------
 	Saturn
 -----------------------*/
-.social-section .saturn{
-	padding-left: 50px;
-	text-align: left;
+.social-section .saturn-glyph-warp{
+	text-align: center;
 }
 
 /*---------------------
 	Social Media
 -----------------------*/
-.social-links h2{
-	font-size: 18px;
-	font-weight: 700;
-	text-align: left;
-	margin-left: 12px;
-	color: #fff;
+
+.social-section .social-link-warp {
+	text-align: right;
 }
 .social-section .social-links {
-	text-align: left;
-	display: block;
-	margin-left: 16px;
-	background: #28303d;
-	position: center;
-	z-index: 111;
+	display:block;
+	padding-top: 20px;
+	background: #ffffff00;
 }
 .social-section .social-links a {
 	color: #2dbcff;
 	font-size: 24px;
-	position: center;
-	margin-right: 12px;
+	margin-right: 32px;
 	margin-left: 12px;
-}
-
-.social-section .social-link-warp {
-	position: left;
 }
 
 /*---------------------
 	Contact Info
 -----------------------*/
-.social-section .contact-info {
-	display: block;
-	text-align: left;
+.social-section .contact-info-warp {
 }
-.social-section .contact-info h2{
-	font-size: 18px;
-	font-weight: 700;
-	text-align: right;
-	margin-right: 40px;
-	color: #fff;
-}
+
 .social-section .contact-info ul{
+	margin-top: 20px;
 	list-style: none;
 }
 .social-section .contact-info ul li{
 	color: #ffffff;
 	font-size: 12px;
-	margin-right: 40px;
 }
 .social-section .contact-info ul li span{
-	color: #a5a5a5;
-	font-weight: 700;
+	color: #ffffff85;
+	font-weight: 600;
 	display: inline-block;
 	min-width: 50px;
 }
