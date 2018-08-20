@@ -329,6 +329,14 @@ img {
 }
 
 /*---------------------
+	Saturn
+-----------------------*/
+.social-section .saturn{
+	padding-left: 50px;
+	text-align: left;
+}
+
+/*---------------------
 	Social Media
 -----------------------*/
 .social-links h2{
@@ -339,12 +347,13 @@ img {
 	color: #fff;
 }
 .social-section .social-links {
-	display: block;
 	text-align: left;
+	display: block;
 	margin-left: 16px;
+	margin-right: 360px;
 	background: #28303d;
 	position: center;
-	z-index: 200;
+	z-index: 111;
 }
 .social-section .social-links a {
 	color: #2dbcff;
@@ -355,7 +364,7 @@ img {
 }
 
 .social-section .social-link-warp {
-	position: center;
+	position: left;
 }
 
 /*---------------------
