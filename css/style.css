@@ -380,12 +380,14 @@ img {
 	color: #333333;
 	line-height: normal;
 	padding-top: 22px;
+	text-shadow: 1px 0px 1px rgb(255, 255, 255);
 }
 
 .hero-text p {
 	color: #444444;
 	font-size: 14px;
 	line-height: 2.0;
+	text-shadow: 1px 0px 1px rgb(255, 255, 255);
 }
 
 .hero-text {
@@ -409,7 +411,6 @@ img {
 }
 
 .education-list li {
-	margin-bottom: 120px;
 	position: relative;
 }
 
@@ -424,13 +425,14 @@ img {
 	height: 15px;
 	border: 2px solid #40424a;
 	border-radius: 50px;
-	background: #cacaca;
+	background: #ffffff;
 	top: 30px;
 	left: -118px;
 }
 
 .education-title h2{
 	font-size: 24px;
+	text-shadow: 1px 0px 3px rgb(0, 0, 0);
 	display: block;
 	color: #ffffff;
 }
@@ -439,11 +441,13 @@ img {
 	color: #ffffff;
 	display: block;
 	font-size: 14px;
+	text-shadow: 1px 0px 10px rgb(0, 0, 0);
 	margin-bottom: 5px;
 }
 
 .education-list h3{
 	color: rgb(255, 255, 255);
+	text-shadow: 1px 0px 10px rgb(0, 0, 0);
 }
 
 .education-list h4 {
@@ -452,17 +456,118 @@ img {
 	color: #ffffff;
 	margin-top: 10px;
 	margin-bottom: 30px;
+	text-shadow: 1px 0px 10px rgb(0, 0, 0);
 }
 
-.education-list p {
-	display: block;
-	color: #ffffff;
+/*-------------------------
+	Work Experience Section
+---------------------------*/
+.work-section.with-bg {
+	background:#f7fbff;
+	position: relative;
+}
+
+.work-section.with-bg .container-fluid{
+	margin-left: auto;
+}
+
+.work-list li {
+	position: relative;
+}
+
+.work-list li:last-child {
 	margin-bottom: 0;
 }
 
-/*---------------------
-	Review section
------------------------*/
+.work-list li:after {
+	position: absolute;
+	content: '';
+	width: 15px;
+	height: 15px;
+	border: 2px solid #40424a;
+	border-radius: 50px;
+	background: #14192c;
+	top: 30px;
+	left: -118px;
+}
+.work-list{
+	list-style: none;
+	border-left: 2px solid #a4a7b4;
+	margin-left: 60px;
+	padding-left: 110px;
+	padding-right: 200px;
+
+}
+
+.work-title h2{
+	color:#474747;
+	font-size: 24px;
+	display:block;
+	padding-bottom: 20px;
+	margin-top:-100px;
+}
+
+.work-list li h2{
+	font-size: 14px;
+	font-weight: 100;
+	color: rgba(0, 0, 0, 0.61);
+	margin-bottom: 1px;
+}
+.work-list li h2 span{
+	font-weight: 600;
+	color: #009dff7c;
+}
+
+.work-list li h3 {
+	margin-top:2px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.work-list li h4 {
+	font-size: 14px;
+	font-weight: 200;
+	color: #474747;
+	margin-bottom: 36px;
+	
+}
+
+/*-------------------------
+	Skills Section
+---------------------------*/
+.skills-title h2{
+	color:#474747;
+	font-size: 24px;
+	display:block;
+	padding-bottom: 20px;
+	margin-top:-100px;
+}
+.skills-list{
+	list-style: none;
+	border-left: 2px solid #a4a7b4;
+}
+
+.skills-list li h2{
+	font-size: 14px;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.301);
+	margin-bottom: -2px;
+}
+
+.skills-list li h3 {
+	font-size: 12px;
+	font-weight: 800;
+}
+
+.skills-list li h4 {
+	font-size: 18px;
+	font-weight: 200;
+	color: #474747;
+	margin-bottom: 24px;
+
+/*-------------------------
+	Not Sure Section
+---------------------------*/
 .review-slider {
 	padding-left: 150px;
 }
