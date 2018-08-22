@@ -956,6 +956,21 @@ img {
 
 /* Medium screen : 992px. */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {	
+
+	.social-section .saturn {
+		display: block;
+		margin: 0 auto;
+		background: #f7fbff00;
+	}
+	.social-section .social-links a {
+		font-size: 24px;
+		margin-left:20px;
+	}
+	.hero-image {
+		display: block;
+		margin: 0 auto;
+	}
+	
 	.portfolio-warp {
 		padding: 0;
 	}
@@ -982,6 +997,28 @@ img {
 
 /* Tablet :768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.social-section .contact-info ul li{
+		font-weight: 700;
+		font-size: 0px;
+	}
+	.social-section .contact-info ul li span{
+		font-size: 0px;
+		min-width: 0px;
+	}
+	.social-section .saturn {
+		display: block;
+		margin: 0 auto;
+		background: #f7fbff00;
+	}
+	.social-section .social-links a {
+		font-size: 24px;
+		margin-left:20px;
+	}
+	.hero-image {
+		display: block;
+		margin: 0 auto;
+	}
+	
 	.portfolio-warp {
 		padding: 0;
 	}
