@@ -1,7 +1,7 @@
 html,
 body {
 	height: 100%;
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -15,18 +15,22 @@ img {
 	padding-top: 20px;
 	padding-bottom: 5px;
 	background-image: url(../img/aurora1.jpg);
+	/* background-color: #140f27; */
 }
 .hero-image {
-	width: 60%;
-	height: 60%;
-	margin-left:200px;
+	width: 25%;
+	height: 25%;
 	margin-top: 20px;
+	margin-left: 0px;
+	margin: auto auto;
 }
 .hero-text h1 {
 	font-size: 30px;
 	color: #ffffff;
 	line-height: normal;
-	padding-top: 22px;
+	padding-top: 20px;
+	margin-left: 200px;
+	/* margin-left: 200px; */
 	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.719);
 }
 .hero-text p {
@@ -34,6 +38,7 @@ img {
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 2.0;
+	margin-left: 200px;
 	text-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
 .hero-text {
@@ -45,7 +50,7 @@ img {
 .hero-social-section .social-links {
 	display:block;
 	background: #ffffff00;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .hero-social-section .social-links a {
 	color: #ffffff;
@@ -117,13 +122,11 @@ img {
 /*-------------------------
 	Work Experience Section
 ---------------------------*/
-.work-section.with-bg {
+.research-section.with-bg {
 	background:#f7fbff;
+	margin-right: 100px;
 }
-.work-list li {
-	position: relative;
-}
-.work-list li:after {
+.research-section li:after {
 	position: absolute;
 	content: '';
 	width: 15px;
@@ -134,42 +137,89 @@ img {
 	top: 30px;
 	left: -118px;
 }
-.work-list{
-	list-style: none;
-	border-left: 2px solid #a4a7b4;
-	margin-left: 60px;
-	padding-left: 110px;
-	padding-right: 200px;
-}
-.work-title h2{
-	color:#474747;
+.research-title h2{
+	color:#636363;
 	font-size: 24px;
 	display:block;
 	padding-bottom: 20px;
 	margin-top: 20px;
 }
-.work-list li h2{
-	font-size: 14px;
-	font-weight: 100;
-	color: rgba(0, 0, 0, 0.61);
-	margin-bottom: 1px;
+.research-sub-section h1{
+	font-size: 18px;
+	font-weight: 600;
+	color: #141414;
+	margin-bottom: 15px;
 }
-.work-list li h2 span{
+.research-sub-section h2{
+	font-size: 14px;
+	font-weight: 300;
+	color: #1a1a1a;
+	margin-bottom: 10px;
+	margin-right: 100px;
+}
+.research-sub-section h3{
+	font-size: 10px;
+	font-weight: 300;
+	color:#7e7e7e;
+	margin-bottom: 30px;
+}
+.research-sub-section h4{
+	font-size: 12px;
+	font-weight: 300;
+	color: #494949;
+	margin-right: 100px;
+}
+.research-sub-section li h2 span{
 	font-weight: 600;
 	color: #009dff7c;
 }
-.work-list li h3 {
+.research-sub-section li h3 {
 	margin-top:2px;
 	font-size: 18px;
 	font-weight: 600;
 }
-.work-list li h4 {
+.research-sub-sectionli h4 {
 	font-size: 14px;
 	font-weight: 200;
 	color: #474747;
 	margin-bottom: 36px;
 }
 
+.research-sub-section a{
+	box-shadow: 0px 1px 5px #000;
+}
+.research-sub-section .port-pic {
+	margin-bottom: 30px;
+	display: block;
+	height: 280px;
+	width: 380px;
+	background: #333;
+	background-position: center center;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	border-style: double;
+	border-color: #ffffff;
+}
+.research-sub-section .port-pic:after {
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	width: 50%;
+	height: 0;
+	background: #000;
+	opacity: 0;
+	z-index: 2;
+	-webkit-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
+	-o-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
+	transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
+}
+.astrophoto-item:hover .port-pic:after {
+	opacity: 0.8;
+	height: 50%;
+	top: 0;
+}
 /*---------------------
 	Skills section
 ----------------------*/
@@ -297,9 +347,7 @@ img {
 	text-shadow: 0px 1px 5px #000;
 	padding-top: -50px;
 }
-.astrophoto-item a{
-	box-shadow: 0px 1px 5px #000;
-}
+
 .astrophoto-item h2{
 	font-size: 16px;
 	font-weight: 600;
@@ -311,6 +359,9 @@ img {
 	color: #ffffff;
 	text-shadow: 0px 1px 5px #000;
 	margin-bottom: 100px;
+}
+.astrophoto-item a{
+	box-shadow: 0px 1px 5px #000;
 }
 .astrophoto-item .port-pic {
 	margin-bottom: 30px;
