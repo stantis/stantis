@@ -1,48 +1,35 @@
 html,
 body {
-	height: 100%;
 	font-family: 'Raleway', sans-serif;
 }
-
-img {
-	max-width: 100%;
-}
-
 /*------------------------
 	Hero + Social section
 --------------------------*/
 .hero-social-section {
 	padding-top: 20px;
-	padding-bottom: 5px;
+	padding-bottom: 200px;
 	background-image: url(../img/aurora1.jpg);
-	/* background-color: #140f27; */
-}
-.hero-image {
-	width: 25%;
-	height: 25%;
-	margin-top: 20px;
-	margin-left: 0px;
-	margin: auto auto;
+	background-repeat: repeat-x;
 }
 .hero-text h1 {
 	font-size: 30px;
+	font-weight: 300;
 	color: #ffffff;
-	line-height: normal;
-	padding-top: 20px;
-	margin-left: 200px;
-	/* margin-left: 200px; */
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 160px;
+	text-align: center;
 	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.719);
 }
 .hero-text p {
 	color: #c7c7c7;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 100;
 	line-height: 2.0;
-	margin-left: 200px;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
 	text-shadow: 0px 0px 5px rgb(0, 0, 0);
-}
-.hero-text {
-	margin-bottom: 20px;
 }
 .hero-social-section .social-link-warp {
 	text-align: center;
@@ -50,99 +37,29 @@ img {
 .hero-social-section .social-links {
 	display:block;
 	background: #ffffff00;
-	margin-top: 10px;
+	padding-top: 20px;
 }
 .hero-social-section .social-links a {
 	color: #ffffff;
 	font-size: 24px;
 	text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.719);
-	margin-right: 32px;
-	margin-left: 12px;
+	padding-right: 32px;
+	padding-left: 12px;
 }
 
-/*---------------------
-	Education section
-----------------------*/
-.education-section.with-bg {
-	background: #f7fbff;
-	background-size: cover;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-.education-list {
-	list-style: none;
-	margin-left: 60px;
-	padding-left: 110px;
-	border-left: 2px solid #40424a;
-}
-.education-list li {
-	position: relative;
-}
-.education-list li:last-child {
-	margin-bottom: 0;
-}
-.education-list li:after {
-	position: absolute;
-	content: '';
-	width: 15px;
-	height: 15px;
-	border: 2px solid #40424a;
-	border-radius: 50px;
-	background: #ffffff;
-	top: 30px;
-	left: -118px;
-}
-.education-title h2{
-	font-size: 24px;
-	display: block;
-	color: #474747;
-}
-.education-list h2 {
-	color: #00000083;
-	display: block;
-	font-size: 14px;
-	text-shadow: 0px 1px 1px #ffffff;
-	margin-bottom: 5px;
-}
-.education-list h3{
-	font-size: 16px;
-	font-weight: 800;
-	text-shadow: 0px 1px 1px #ffffff;
-	color: rgb(0, 0, 0);
-}
-.education-list h4 {
-	font-size: 12px;
-	text-transform: uppercase;
-	color: #000000be;
-	text-shadow: 0px 1px 1px #ffffff;
-	margin-top: 10px;
-	margin-bottom: 30px;
-}
-
-/*-------------------------
-	Work Experience Section
----------------------------*/
+/*-------------------------------
+	Research Experience Section
+--------------------------------*/
 .research-section.with-bg {
-	background:#f7fbff;
-	margin-right: 100px;
-}
-.research-section li:after {
-	position: absolute;
-	content: '';
-	width: 15px;
-	height: 15px;
-	border: 2px solid #40424a;
-	border-radius: 50px;
-	background: #14192c;
-	top: 30px;
-	left: -118px;
+	background:#f6f8ff;
+	padding-bottom: 40px;
 }
 .research-title h2{
 	color:#636363;
 	font-size: 24px;
-	display:block;
-	padding-bottom: 20px;
-	margin-top: 20px;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	text-align: center;
 }
 .research-sub-section h1{
 	font-size: 18px;
@@ -151,7 +68,7 @@ img {
 	margin-bottom: 15px;
 }
 .research-sub-section h2{
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 300;
 	color: #1a1a1a;
 	margin-bottom: 10px;
@@ -184,15 +101,14 @@ img {
 	color: #474747;
 	margin-bottom: 36px;
 }
-
 .research-sub-section a{
 	box-shadow: 0px 1px 5px #000;
 }
 .research-sub-section .port-pic {
 	margin-bottom: 30px;
 	display: block;
-	height: 280px;
-	width: 380px;
+	width: 340px;
+	height: 240px;
 	background: #333;
 	background-position: center center;
 	background-size: cover;
@@ -215,184 +131,59 @@ img {
 	-o-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
 	transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
 }
-.astrophoto-item:hover .port-pic:after {
-	opacity: 0.8;
-	height: 50%;
-	top: 0;
-}
-/*---------------------
-	Skills section
-----------------------*/
-.skillpapers-section.with-bg {
-	background-image: url(../img/aurora1.jpg);
-	background-size: cover;
-}
-.skills-list li {
-	position: relative;
-}
-.skills-list li:after {
-	position: absolute;
-	content: '';
-	width: 15px;
-	height: 15px;
-	border: 2px solid #40424a;
-	border-radius: 50px;
-	background: #ffffff;
-	top: 10px;
-	left: -118px;
-}
-.skills-list{
-	list-style: none;
-	border-left: 2px solid #a4a7b4;
-	margin-left: 60px;
-	margin-bottom: 40px;
-	padding-left: 110px;
-	padding-right: 200px;
-}
-.skills-title h2{
-	color:#ffffff;
-	font-size: 24px;
-	display:block;
-	padding-bottom: 20px;
-	margin-top: 20px;
-	text-shadow: 0px 0px 5px #000;
-}
-.skills-list li h2{
-	margin-top:2px;
-	font-size: 18px;
-	font-weight: 600;
-	color: rgb(255, 255, 255);
-	text-shadow: 0px 0px 5px #000;
-}
-.skills-list li h3{
-	font-size: 14px;
-	font-weight: 200;
-	color: #ffffff;
-	margin-bottom:30px;
-	text-shadow: 0px 0px 5px #000;
-}
 
-/*---------------------
-	Papers section
-----------------------*/
-.papers.with-bg {
-	background:#f7fbff;
-}
-.papers-list li {
-	position: relative;
-}
-.papers-list li:after {
-	position: absolute;
-	content: '';
-	width: 15px;
-	height: 15px;
-	border: 2px solid #40424a;
-	border-radius: 50px;
-	background: #14192c;
-	top: 30px;
-	left: -118px;
-}
-.papers-list{
-	list-style: none;
-	border-left: 2px solid #a4a7b4;
-	margin-left: 60px;
-	padding-left: 110px;
-	padding-right: 200px;
-}
-.papers-title h2{
-	color:#474747;
-	font-size: 24px;
-	display:block;
-	padding-bottom: 20px;
-	margin-top: 20px;
-}
-.papers-list li h2{
-	font-size: 14px;
-	font-weight: 600;
-	color: rgba(0, 0, 0, 0.507);
-	margin-bottom: 1px;
-}
-.papers-list li h3 {
-	font-size: 18px;
-	font-weight: 600;
-}
-.papers-list li h4 {
-	font-size: 14px;
-	font-weight: 200;
-	color: #474747;
-	margin-bottom: 20px;
-}
-
-/*--------------------------
+/*----------------------------
 	Astrophotography Section
-----------------------------*/
+------------------------------*/
 .astrophoto-section {
-	background-image: url(../img/aurora2.jpg);
+	background-color: #06021a;
 	background-size: cover;
-}
-.astrophoto-warp {
-	padding: 0 80px;
 }
 .astrophoto-title h2 {
 	color:#ffffff;
 	font-size: 24px;
-	display:block;
-	padding-bottom: 20px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 60px;
+	margin-top: 60px;
+	text-align: center;
 	text-shadow: 0px 1px 5px #000;
 }
-.astrophoto-section .section-title h2{
-	color:#ffffff;
+.astrophoto-title h3 {
+	color: #b3b3b3;
+	font-size: 14px;
+	font-weight: 600px;
+	text-align: center;
+	padding-bottom: 60px;
 	text-shadow: 0px 1px 5px #000;
-	padding-top: -50px;
 }
-
 .astrophoto-item h2{
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 100;
 	color:#ffffff;
+	text-align: center;
 	text-shadow: 0px 1px 5px #000;
+	margin-top: 20px;
 }
 .astrophoto-item p {
 	font-size: 14px;
-	color: #ffffff;
+	color: #b3b3b3;
 	text-shadow: 0px 1px 5px #000;
+	text-align: center;
 	margin-bottom: 100px;
 }
 .astrophoto-item a{
 	box-shadow: 0px 1px 5px #000;
-}
-.astrophoto-item .port-pic {
-	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
 	display: block;
-	height: 240px;
+	height: 320px;
+	width: 320px;
 	background: #333;
 	background-position: center center;
 	background-size: cover;
 	overflow: hidden;
-	position: relative;
 	border-style: double;
-	border-color: #ffffff;
-}
-.astrophoto-item .port-pic:after {
-	position: absolute;
-	content: '';
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 0;
-	background: #000;
-	opacity: 0;
-	z-index: 2;
-	-webkit-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
-	-o-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
-	transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
-}
-.astrophoto-item:hover .port-pic:after {
-	opacity: 0.8;
-	height: 100%;
-	top: 0;
+	position: relative;
+	border-color: #1f1d27;
 }
 
 /*---------------------
