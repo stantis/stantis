@@ -8,8 +8,8 @@ body {
 .hero-social-section {
 	padding-top: 20px;
 	padding-bottom: 200px;
-	/* background-image: url(../img/aurora1.jpg); */
-	background-image: url(../img/resume-bg.jpg);
+	background-image: url(../img/aurora1.jpg);
+	/* background-image: url(../img/resume-bg.jpg); */
 	background-repeat: repeat-x;
 }
 .hero-text h1 {
@@ -23,14 +23,14 @@ body {
 	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.719);
 }
 .hero-text p {
-	color: #c7c7c7;
-	font-size: 14px;
+	color: #ffffff;
+	font-size: 16px;
 	font-weight: 100;
 	line-height: 2.0;
 	margin-left: auto;
     margin-right: auto;
 	text-align: center;
-	text-shadow: 0px 0px 5px rgb(0, 0, 0);
+	text-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 .hero-social-section .social-link-warp {
 	text-align: center;
