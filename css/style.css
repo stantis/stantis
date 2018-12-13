@@ -1,6 +1,6 @@
 html,
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Heebo', sans-serif;
 }
 /*------------------------
 	Hero + Social section
@@ -8,12 +8,13 @@ body {
 .hero-social-section {
 	padding-top: 20px;
 	padding-bottom: 200px;
-	background-image: url(../img/aurora1.jpg);
+	/* background-image: url(../img/aurora1.jpg); */
+	background-image: url(../img/resume-bg.jpg);
 	background-repeat: repeat-x;
 }
 .hero-text h1 {
-	font-size: 30px;
-	font-weight: 300;
+	font-size: 36px;
+	/* font-weight: 100; */
 	color: #ffffff;
 	margin-left: auto;
 	margin-right: auto;
