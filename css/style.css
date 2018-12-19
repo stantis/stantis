@@ -8,13 +8,11 @@ body {
 .hero-social-section {
 	padding-top: 20px;
 	padding-bottom: 200px;
-	background-image: url(../img/aurora1.jpg);
-	/* background-image: url(../img/resume-bg.jpg); */
+	background-image: url(../img/aurora2.jpg);
 	background-repeat: repeat-x;
 }
 .hero-text h1 {
 	font-size: 36px;
-	/* font-weight: 100; */
 	color: #ffffff;
 	margin-left: auto;
 	margin-right: auto;
@@ -843,11 +841,6 @@ body {
 		font-size: 0px;
 		min-width: 0px;
 	}
-	.social-section .saturn {
-		display: block;
-		margin: 0 auto;
-		background: #f7fbff00;
-	}
 	.social-section .social-links a {
 		font-size: 24px;
 		margin-left:20px;
@@ -855,6 +848,33 @@ body {
 	.hero-image {
 		display: block;
 		margin: 0 auto;
+	}
+	.research-sub-section .port-pic {
+		margin-bottom: 30px;
+		display: block;
+		width: 340px;
+		height: 240px;
+		background: #333;
+		background-position: center center;
+		background-size: cover;
+		overflow: hidden;
+		position: center;
+		border-style: double;
+		border-color: #1f1d27;
+	}
+	.research-sub-section .port-pic:after {
+		position: absolute;
+		content: '';
+		left: 0;
+		bottom: 0;
+		width: 50%;
+		height: 0;
+		background: #000;
+		opacity: 0;
+		z-index: 2;
+		-webkit-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
+		-o-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
+		transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
 	}
 	
 	.portfolio-warp {
@@ -911,7 +931,7 @@ body {
 @media only screen and (max-width: 767px) {
 
 	.hero-social-section .hero-text p{
-		font-weight: 800;
+		font-weight: 100;
 	}
 	.hero-social-section .social-links a {
 		font-size: 24px;
@@ -923,148 +943,97 @@ body {
 	}
 
 
-	.work-section .work-title h2{
-		font-size: 20px;
-		padding-left: 28px;
+
+	.research-sub-section h1{
+		text-align: center;
+		margin-bottom: 40px;
 	}
-	.work-list li:last-child {
-		margin-bottom: 0;
+	.research-sub-section .port-pic {
+		margin-bottom: 30px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 340px;
+		height: 240px;
+		background: #333;
+		background-position: center center;
+		background-size: cover;
+		overflow: hidden;
+		position: center;
+		border-style: double;
+		border-color: #1f1d27;
 	}
-	.work-list li:after {
+	.research-sub-section .port-pic:after {
 		position: absolute;
 		content: '';
-		width: 15px;
-		height: 15px;
-		border: 2px solid #40424a;
-		border-radius: 50px;
-		background: #14192c;
-		top: 22px;
-		left: -33px;
+		left: 0;
+		bottom: 0;
+		width: 50%;
+		height: 0;
+		background: #000;
+		opacity: 0;
+		z-index: 2;
+		-webkit-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
+		-o-transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
+		transition: all 0.4s cubic-bezier(0.55, 0.09, 0.68, 0.53) 0s;
 	}
-	.work-list {
-		list-style: none;
-		margin-left: 30px;
-		padding-left: 24px;
-		padding-right: 10px;
-		border-left: 2px solid #40424a;
-	}
-	.work-list h2{
-		font-size: 12px;
-		font-weight: 700;
-	}
-	.work-list h2 span {
-		font-size: 10px;
-		font-weight: 800;
-	}
-	.work-section .work-list h3{
+	.research-sub-section h4 {
+		text-align: center;
+		font-weight: 200;
 		font-size: 14px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 40px;
+		margin-bottom: 20px;
 	}
-	.work-section .work-list h4 {
-		font-size: 10px;
+	.research-sub-section h2 {
+		font-size: 16px;
+		text-align: center;
+		font-weight: 600;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
 	}
-
-
-
-	.skills-title h2{
-		font-size: 20px;
-		padding-left: 28px;
-	}
-	.skills-list li:last-child {
-		margin-bottom: 0;
-	}
-	.skills-list li:after {
-		position: absolute;
-		content: '';
-		width: 15px;
-		height: 15px;
-		border: 2px solid #40424a;
-		border-radius: 50px;
-		background: #ffffff;
-		top: 22px;
-		left: -33px;
-	}
-	.skills-list {
-		list-style: none;
-		margin-left: 30px;
-		padding-left: 24px;
-		padding-right: 10px;
-		border-left: 2px solid #40424a;
-	}
-	.skillpapers-section .skills-list h2{
-		font-size: 14px;
-		font-weight: 700;
-	}
-	.skillpapers-section .skills-list h3{
-		font-size: 12px;
-		color: #ffffffbe;
-		font-weight: 800;
-	}
-
-
-	.papers-section .papers-title h2{
-		font-size: 20px;
-		padding-left: 28px;
-	}
-	.papers-list li:last-child {
-		margin-bottom: 0;
-	}
-	.papers-list li:after {
-		position: absolute;
-		content: '';
-		width: 15px;
-		height: 15px;
-		border: 2px solid #40424a;
-		border-radius: 50px;
-		background: #14192c;
-		top: 22px;
-		left: -33px;
-	}
-	.papers-list {
-		list-style: none;
-		margin-left: 30px;
-		padding-left: 24px;
-		padding-right: 10px;
-		border-left: 2px solid #40424a;
-	}
-	.papers .papers-list h2{
-		font-size: 12px;
-		font-weight: 700;
-	}
-	.papers .papers-list h3{
-		font-size: 14px;
-	}
-	.papers .papers-list h4 {
-		font-size: 12px;
-	}
-
-
-	.astrophoto-item h2{
+	.research-sub-section h3 {
+		text-align: center;
 		font-size: 14px;
 		font-weight: 600;
-		margin-top: 7px;
+		margin-bottom: 80px;
+	}
+
+
+	.astrophoto-title h3 {
+		font-size: 16px;
+		font-weight: 300;
+	}
+	.astrophoto-item h2 {
+		font-size: 18px;
+		font-weight: 300;
+		margin-top: 16px;
 		margin-bottom:0px;
 		color:#ffffff;
 		text-shadow: 0px 1px 5px #000;
 	}
 	.astrophoto-item p {
-		font-size: 12px;
+		font-size: 14px;
+		font-weight: 100;
 		color: #ffffff;
 		text-shadow: 0px 1px 5px #000;
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 	}
 	.astrophoto-item .port-pic {
 		margin-bottom: 15px;
 		display: block;
 		margin: 0 auto;
-		height: 240px;
-		width: 240px;
+		height: 340px;
+		width: 340px;
 		background: #333;
 		background-position: center center;
 		background-size: cover;
 		overflow: hidden;
 		position: relative;
 		border-style: double;
-		border-color: #ffffff;
+		border-color: #1f1d27;
 	}
 
 	.icon-box {
@@ -1079,11 +1048,6 @@ body {
 	}
 	.hidden-md {
 		display: none !important;
-	}
-	.resume-list {
-		margin-left: 0;
-		padding-left: 0;
-		border-left: none;
 	}
 	.review-slider {
 		padding-left: 0;
