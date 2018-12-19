@@ -935,7 +935,7 @@ body {
 	}
 	.hero-social-section .social-links a {
 		font-size: 24px;
-		margin-left:20px;
+		margin-left:10px;
 	}
 	.hero-image {
 		display: block;
@@ -1111,7 +1111,7 @@ body {
 		display: block;
 	}
 	.social-section .social-links a {
-		margin-right: 15px;
+		margin-right: 10px;
 	}
 	.resume-list h2 {
 		font-size: 50px;
