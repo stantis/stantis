@@ -8,8 +8,9 @@ body {
 .hero-social-section {
 	padding-top: 20px;
 	padding-bottom: 200px;
-	background-image: url(../img/aurora2.jpg);
+	background-image: url(../img/jkt.jpg);
 	background-repeat: repeat-x;
+	img: bottom;
 }
 .hero-text h1 {
 	font-size: 36px;
