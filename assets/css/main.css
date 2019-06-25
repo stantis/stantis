@@ -2707,7 +2707,9 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgb(0, 0, 0);
+			/* background-color: rgba(0, 0, 0, 0.15); */
+
 		}
 
 		.spotlight:nth-child(3) {
@@ -3966,10 +3968,14 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(9, 0, 49, 0.5)), url("../../images/banner.jpg");
+		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(9, 0, 49, 0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(255, 255, 255, 0)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(255, 255, 255, 0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(255, 255, 255, 0)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(255, 255, 255, 0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(255, 255, 255, 0.5)), url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
