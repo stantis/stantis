@@ -179,7 +179,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5, h6{
 		color: #fff;
 		font-weight: 800;
 		letter-spacing: 0.225em;
@@ -232,7 +232,8 @@ input, select, textarea {
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-weight: 300;
+		font-size: 0.8em;
 		line-height: 1.5em;
 	}
 
@@ -2105,6 +2106,14 @@ input, select, textarea {
 		.icon.style3 {
 			color: #76ddff;
 		}
+
+
+/* Hero Image */
+
+	.hero-image {
+		display: inline-block;
+		position: center;
+	}
 
 /* Image */
 
