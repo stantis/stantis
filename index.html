@@ -1,72 +1,403 @@
 <!DOCTYPE HTML>
 <!--
-	Spectral by HTML5 UP
+	Dimension by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Stephen Revesz</title>
+		<title>Dimension by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+		sub {
+			vertical-align: sub;
+			font-size: small;
+		}
+		</style>
 	</head>
-	<body class="landing is-preload">
+	<body class="is-preload">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Stephen Revesz</a></h1>
+					<header id="header">
+						<div class="logo">
+							<i class="fa fa-space-shuttle fa-rotate-270 fa-2x" aria-hidden="true"></i>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Stephen Revesz</h1>
+								<p>Hello! I'm a Ph.D. student at Florida International University </br> in experimental quantum optics and a background in </br> observational astrophysics.</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#About">About</a></li>
+								<li><a href="#Research">Research</a></li>
+								<li><a href="images/cv_4.pdf" class="menu__link" target="_blank">CV</a></li>
+								<!-- <li><a href="#CV">CV</a></li> -->
+								<!-- <li><a href="#contact">Contact</a></li> -->
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
 					</header>
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="hero-image"><img src='images/pic2.png'></div>
-						<div class="inner">
-							<h2>Stephen Revesz</h2>
-							<h6>Hello! I'm a Ph.D. student at Florida International University </br> with a focus on experimental optics with a background in </br> observational astrophysics.</h4>
-							<ul class="icons">
-								<li><a href="https://twitter.com/stephenrevesz" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.instagram.com/srevesz/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="mailto:sreve00@fiu.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-						</div>
-						<a href="#one" class="more scrolly">Learn More About My Research!</a>
-					</section>
-				
-				<!-- Two -->
-				<section id="two" class="wrapper alt style1">
-					<section class="spotlight">
-						<div class="image"><img src="images/spec1.jpg" alt="" /></div><div class="content">
-							<h2>2D Materials</h2>
-							<p>Currently in <a href=‘http://faculty.fiu.edu/~hebli/’>Dr. Hebin Li</a>'s group using ultra-fast spectroscopy to probe exciton physics, ultrafast dynamics, and valley dynamics of two-dimensional transition metal dichalcogenides (2D TMD) in monolayer, bilayer, and heterostructure configurations. </br></br> To the left is the 4-pulse collinear spectrometer that I will be using for my experiments.</p>
-						</div>
-					</section>
-					<section class="spotlight">
-						<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-							<h2>Quasar Optical Micro-Variability</h2>
-							<p>During my undergraduate studies, I used our 24" telescope at the <a href='https://astroscience.fiu.edu'>Stocker AstroScience Center</a> and the telescopes available through the <a href="http://saraobservatory.org">SARA Observatory</a> to measure the optical variability of quasars with <a href='http://faculty.fiu.edu/~webbj/'>Dr. James Webb</a></a> </br></br> The photo is of myself visiting the GTC in La Palma in 2018.</p>
-						</div>
-					</section>
-				</section>
+				<!-- Main -->
+					<div id="main">
+						<!-- Intro -->
+							<article id="Research">
+								<h2 class="major">Research</h2>
+								<h3>Multi-dimensional Coherent Spectroscopy & Quantum Optics</h3>
+								<span class="image main"><img src="images/spec03.jpg" alt="" /></span>
+								<p>Above is the collinear spectrometer following this 
+								<a href="https://www.osapublishing.org/oe/abstract.cfm?uri=oe-21-23-28617">architecture</a>
+								that I will be using to probe the optical properties of 2D materials. The plot showcases frequency domain spectra obtained by the 
+								setup for a Rubidium vapor and the simulated spectra I wrote in Python.
+								The 2D materials I will focus on are heterostructure transition-metal dichalcogenides 
+								WSe<math><sub>2</sub></math>, WS<math><sub>2</sub></math>, and possibly graphene. 
+								Quasi-particles called excitons form from an electron-hole pair located within a 2D monolayer 
+								or between adjacent bilayer sheets. The coherence times for excitons, including their ionized 
+								variety, are very short lived (~ps) and I want to look into how the exciton coherence time is 
+								affected by different arrangements of sandwiched heterostructures, strain induced points, or 
+								"magic angle" rotated sheets.  
+								</p>
+								<h3>Blazar Optical Variability</h3>
+								<span class="image main"><img src="images/0716+71-dual.JPG" alt="" /></span>
+								<p>Blazar are a sub-class of active galactic nuclei that exhibit fluctuating luminosity throughout the spectrum of light.
+								Our group focused on the optical variability and kept an eye on several blazar through our observatory and through the SARA consortium. 
+								Blazar 2200+420 was the object I particularly focused on during my undergraduate research. It has a rather high duty cycle of about ~77, 
+								meaning variability is probabble about 77% of the time. The responsibilities I had were 90% observational and 10% theoretical. The figure above
+								is of blazar 0716+071 showcasing microvariability observed simultaneously from two separate observatories.  
+								</p>
+
+								<h3>Exoplanet Transit Survey</h3>
+								<span class="image main"><img src="images/Figure_1_T1_LA.pdf" alt="" /></span>
+								<p>After verifying the sensitivity of our 0.6-m class telescope of being capable of picking up the 
+								micro-variability of distant quasar from light polluted Miami, I made several attempts at observing an exoplanet 
+								transit as well. The findings were unsatisfactory as the flux dip due to the transit are much smaller than 
+								the noise produced by the light pollution in the surrounding campus and nearby city lights. The figure above shows
+								one of my observations of GJ3470 and a comparison star. The dashed red lines denote the transit start and end times.</p>
+								</article>
+
+						<!-- About -->
+							<article id="About">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="images/selfie.jpg" alt="" /></span>
+								<ul class="icons">
+									<li><a href="https://twitter.com/stephenrevesz" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.instagram.com/srevesz/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="mailto:sreve003@fiu.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+								<p>Earned a B.Sc. in physics wth a minor in astronomy from Florida International University. 
+								I worked closely with <a href="http://faculty.fiu.edu/~webbj/">Dr. James Webb</a> on observing and 
+								modelling blazar optical variability. He also taught me how to operate our 0.6-m class telescope 
+								at the <a href="https://astroscience.fiu.edu">Stocker AstroScience Center</a> observatory, 
+								and the telescopes available through the <a href="https://www.saraobservatory.org">SARA Consortium</a> 
+								in Arizona, Chile, and the Canary Islands. (The telescope in the selfie is the GTC btw!)</p>
+
+								<p>Currently finishing up the first year of my Ph.D.at FIU with 
+								<a href="http://faculty.fiu.edu/~hebli/">Dr. Hebin Li</a> as my advisor. The general
+								synopsis for my thesis will be on characterizing the optical properties of 2D materials through
+								multi-dimensional coherent spectroscopy.</p>
+								
+								<p>Besides research I would use the observatory for outreach and even managed to catalog all 
+								the <a href="https://astroscience.fiu.edu/research/_assets/messier-objects_new.pdf">Messier objects</a> 
+								with other students! You can even check out some of my astrophotography on my secondary 
+								<a href="https://www.instagram.com/steve_n_space/">Instagram</a>.</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<div class="icon fa-space-shuttle"></div>
-						<ul class="copyright">
-							<li>&copy; Stephen Revesz</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
+						<p class="copyright">&copy; Stephen Revesz. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
 
+		<!-- BG -->
+			<div id="bg"></div>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
